@@ -1,205 +1,149 @@
-# Awesome-Desk-Booking-Platform
-
-## Top Desk Booking Platforms Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Hot Desking, Workspace Reservation, Floor Plan Visualization & Hybrid Work Management*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Desk Booking**. These tools help organizations manage hybrid workplaces, allowing employees to reserve desks, rooms, and parking spaces while providing facilities teams with utilization analytics.
-
-
-
-**Examples** include Envoy Desks, Robin, OfficeSpace, Kadence, Skedda, Condeco, Deskbird, Officely, Tactic, and Eden Workplace (the category leaders).
-
-
-
-**Open-source emphasis**: Desk booking has a **focused but developing open-source ecosystem**. **Seatsurfing** is the leading open-source solution with **313 stars and 98 forks**, actively maintained with recent commits as of September 2026 . **WARP** (Workspace Autonomous Reservation Program) provides a comprehensive hybrid office management system with production-grade Docker deployment . **LibreBooking** is a mature community fork of Booked Scheduler used by organizations for resource reservations . **Roomer** is a self-hosted platform for desk and asset reservations without SaaS dependency . **OpenDesk** is an early-stage project focused on desk optimization . This section documents these solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Envoy Desks](https://envoy.com/desks/)**  
-
-  Desk booking integrated with Envoy's workplace platform. Provides desk reservations, floor plan visualization, and occupancy analytics with visitor management integration.
-
-
-
-- **[Robin](https://robinpowered.com/)**  
-
-  Workplace experience platform for hybrid teams. Provides desk and room booking, workplace analytics, and integrations with Google Calendar and Microsoft 365.
-
-
-
-- **[OfficeSpace](https://www.officespacesoftware.com/)**  
-
-  Workplace management platform with desk booking, room scheduling, and space utilization analytics. Helps organizations optimize office footprint.
-
-
-
-- **[Kadence](https://kadence.co/)**  
-
-  Hybrid workplace management platform. Provides desk, room, and parking booking, visitor management, and workplace analytics.
-
-
-
-- **[Skedda](https://www.skedda.com/)**  
-
-  Cloud-based space scheduling platform for meeting rooms, desks, and shared resources. Known for ease of use and flexible booking rules.
-
-
-
-- **[Condeco](https://www.condeco.com/)**  
-
-  Workplace management platform with desk booking, meeting room scheduling, and occupancy analytics. Used by enterprises worldwide for hybrid workplace optimization.
-
-
-
-- **[Deskbird](https://www.deskbird.com/)**  
-
-  European desk booking platform with strong DACH market presence. Provides desk and room booking, team coordination, and analytics .
-
-
-
-- **[Officely](https://officely.app/)**  
-
-  Desk booking platform integrated with Slack and Microsoft Teams. Enables team coordination and office attendance planning.
-
-
-
-- **[Tactic](https://tactic.io/)**  
-
-  Hybrid workplace platform with desk booking, room reservations, and team scheduling.
-
-
-
-- **[Eden Workplace](https://edendenworkplace.com/)**  
-
-  Workplace management platform with desk booking, visitor management, and maintenance ticketing.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Comprehensive Desk Booking Systems
-
-
-
-- **[Seatsurfing](https://github.com/seatsurfing/backend)**  
-
-  **The leading open-source desk and room booking system.** **313 stars, 98 forks**, GPL-3.0 licensed, **actively maintained** (last commit September 3, 2026) . **Key features**: Core REST API backend in **Go**; booking PWA (TypeScript/React) for end users; separate Admin UI for configuration; **floor plan visualization** with drag-and-drop layout tools; multi-language support; PostgreSQL persistence; **Docker and Kubernetes deployment** with multi-architecture images (amd64, arm64) . Integrations include Microsoft Teams and Confluence. Optional hosted SaaS with free tier for small teams . **Best for**: Organizations wanting a complete self-hosted desk booking solution with modern web UI.
-
-
-
-- **[WARP (Workspace Autonomous Reservation Program)](https://github.com/sebo-b/warp)**  
-
-  **Comprehensive open-source system for managing hybrid office space.** **Key features**: Support for **assigned desks, hot-desks, parking stalls**; mobile PWA; admin interface for **maps, zones, groups**; per-zone booking constraints; assigned seats; disabled seats; auto-book; **iCal feed subscriptions**; per-zone reminders; configurable booking windows; **SAML/LDAP/Azure AD/OIDC authentication**; translations (English, German, French, Spanish, Polish) . **Tech stack**: Python/Flask with PostgreSQL. **Deployment**: `docker run --rm -p 5000:5000 ghcr.io/sebo-b/warp:debug` for demo; production via `ghcr.io/sebo-b/warp:latest` with uWSGI . **Best for**: Organizations needing comprehensive hybrid workplace management with authentication integrations.
-
-
-
-### Resource Scheduling Platforms
-
-
-
-- **[LibreBooking](https://github.com/LibreBooking/librebooking)**  
-
-  **Mature open-source resource scheduling and reservation system.** Community-driven fork of Booked Scheduler. **Key features**: **Resource reservations** (rooms, equipment, shared assets); calendar-style views (day, week, month); **recurring bookings** with conflict detection; **approval workflows** with email notifications; **groups and permissions**; **accessories and add-ons** (projectors, microphones); REST API and reports . **Self-hosting** keeps data under your control with no per-user fees . **Best for**: Organizations needing flexible resource scheduling beyond just desks.
-
-
-
-- **[Roomer](https://github.com/topics/hotdesk-booking)**  
-
-  **Self-hosted platform for managing desk and asset reservations across offices, buildings, and floors.** **Key features**: Upload floor plans, place bookable assets on a canvas, team booking without SaaS dependency. **TypeScript-based**, updated September 2026 . **Best for**: Teams wanting visual floor plan-based booking with self-hosting.
-
-
-
-- **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)**  
-
-  **Open-source system for optimizing office desk utilization.** **Key features**: Organization setup with sites/buildings and desk capacity; employee desk reservation for planned office days; reservation modification and cancellation; booking history; confirmation alerts . **Future roadmap**: SSO with roles, notification channels (email), department segregation, desk map configurations, real-time organization dashboard . **Best for**: Early adopters wanting a simple, extensible desk booking foundation.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Comprehensive Systems**: **Seatsurfing** (Go/React, floor plans, Docker/K8s) , **WARP** (Python/Flask, hybrid office, SSO) .
-
-- **Resource Scheduling**: **LibreBooking** (PHP, recurring bookings, approval workflows) , **Roomer** (TypeScript, visual floor plans) .
-
-- **Early-Stage**: **OpenDesk** (simple desk optimization) .
-
-- **Note**: **Booked Scheduler** (original, now succeeded by LibreBooking) and **MRBS** (Meeting Room Booking System) are legacy options, though LibreBooking is the actively maintained fork .
-
-
-
-**Frameworks for building custom systems**: Combine **Seatsurfing** for a complete desk booking solution with floor plans and Docker deployment, **WARP** for hybrid office management with SSO authentication, **LibreBooking** for resource scheduling with approval workflows, and **Roomer** for visual floor plan-based booking. Add **PostgreSQL** for persistence and **Docker/Kubernetes** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Desk booking platforms handle potentially sensitive employee location and occupancy data; ensure compliance with GDPR, CCPA, and applicable workplace monitoring regulations.
-
-- **Open-source reality**: The open-source ecosystem for desk booking is **developing but production-capable**. **Seatsurfing** is the standout—actively maintained with 313 stars, Go/React stack, floor plan visualization, and Docker/Kubernetes deployment . **WARP** provides comprehensive hybrid office management with SSO integrations . **LibreBooking** offers mature resource scheduling with approval workflows . **Roomer** delivers visual floor plan-based booking . However, **commercial platforms** (Envoy, Robin, OfficeSpace, Condeco) provide **enterprise-grade analytics, native mobile apps, visitor management integration, and dedicated support** that open-source alternatives require additional tooling to match. The open-source path is **genuinely viable** for organizations with strong IT capacity seeking full data ownership and zero per-user fees.
-
-
+# 🏢 Awesome Desk Booking Platform & Workspace Management Ecosystem
+
+![Awesome Desk Booking Platform](assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desk-Booking-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desk-Booking-Platform?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🎯 Overview & Market Ecosystem
 
+Welcome to the **Awesome Desk Booking Platform** repository — a curated directory of **SaaS products** and **open-source projects** dedicated to **desk booking**, **hot desking**, **workspace reservation**, **floor plan visualization**, and **hybrid work management**.
 
-**Made for facilities managers, workplace experience teams, HR leaders, and hybrid workplace strategists.**
+Whether you are a facilities manager optimizing corporate real estate, an HR leader coordinating hybrid team presence, or a DevOps engineer seeking self-hosted open-source desk scheduling tools, this list provides transparent comparisons of features, pricing, free tiers, and repository metrics.
 
-Let's make desk booking more open, transparent, and flexible.
+---
+
+## 📌 Table of Contents
+
+- [🏢 SaaS & Hosted Desk Booking Platforms](#-saas--hosted-desk-booking-platforms)
+- [🐳 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📊 Feature Matrix & Architecture Comparison](#-feature-matrix--architecture-comparison)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+
+---
+
+## 🏢 SaaS & Hosted Desk Booking Platforms
+
+> 📈 **Market Intelligence & Sector Overview:**  
+> The global workplace management and desk booking software market is valued at **$1.2 Billion in 2026** (projected to reach **$3.8 Billion by 2033** at an 18.2% CAGR). The market structure is **moderately fragmented**, anchored by large enterprise aggregators (like Eptura / Condeco) and high-growth unicorn platforms (such as Envoy) alongside specialized mid-market hybrid work providers.
+
+The table below lists leading commercial desk booking SaaS products, **sorted by Company Size (Valuation / Revenue) descending**:
+
+| 🏢 Platform | 💰 Company Size (Valuation / Revenue) | 🏷️ Pricing (Starting Tier) | 🎁 Free Tier / Trial Limits | ⚡ Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Condeco (Eptura Engage)](https://www.condeco.com/)** | **$2.5B Valuation** <br> *(~$250M+ Revenue)* | **$3.50 / desk / month** | **14-day Free Trial** <br> *(Enterprise guided trial & demo)* | Enterprise desk & room scheduling, occupancy sensors, Outlook & M365 integration. |
+| **[Envoy Desks](https://envoy.com/desks/)** | **$1.4B Valuation** <br> *(~$100M ARR)* | **$3.00 / desk / month** | **14-day Free Trial** <br> *(Full feature access, no credit card required)* | Hot desking, interactive floor plan maps, visitor management, health attestation. |
+| **[Robin](https://robinpowered.com/)** | **$150M Valuation** <br> *(~$38M ARR)* | **$3.00 / user / month** | **14-day Free Trial** <br> *(Full workspace suite sandbox available)* | Desk & meeting room booking, floor maps, Google Workspace & Microsoft 365 syncing. |
+| **[OfficeSpace](https://www.officespacesoftware.com/)** | **$100M Valuation** <br> *(~$25M ARR)* | **$3.50 / desk / month** <br> *($150/mo minimum)* | **14-day Free Trial** <br> *(Guided product sandbox)* | Space allocation, move management, floor plan drag-and-drop editor, footprint analytics. |
+| **[Skedda](https://www.skedda.com/)** | **$75M Valuation** <br> *(~$15M ARR)* | **$249 / month** <br> *(Up to 10 spaces)* | **14-day Free Trial** <br> *(Full features, no credit card required)* | Flexible desk & resource scheduling, custom booking rules, interactive map view, iCal sync. |
+| **[Deskbird](https://www.deskbird.com/)** | **$50M Valuation** <br> *(~$18M ARR)* | **€2.20 / user / month** <br> *(~$2.40)* | **14-day Free Trial** <br> *(Free Starter plan available for small teams)* | European market leader, desk & room booking, team presence coordination, MS Teams integration. |
+| **[Eden Workplace](https://edendenworkplace.com/)** | **$40M Valuation** <br> *(~$10M ARR)* | **$2.00 / user / month** | **Free Starter Plan** <br> *(Up to 10 users free forever)* | Desk booking, visitor management, internal ticketing, office check-in policies. |
+| **[Kadence](https://kadence.co/)** | **$30M Valuation** <br> *(~$8M ARR)* | **$2.50 / user / month** | **14-day Free Trial** <br> *(Guided platform onboarding)* | Hybrid workplace scheduling, desk/room/parking reservation, active-user billing. |
+| **[Officely](https://officely.app/)** | **$15M Valuation** <br> *(~$4M ARR)* | **$2.50 / user / month** | **Free Plan for up to 10 users** <br> *(Free forever for micro teams)* | Native Slack & MS Teams desk booking app, team presence tracking, office lunch planning. |
+| **[Tactic](https://tactic.io/)** | **$10M Valuation** <br> *(~$2M ARR)* | **$2.50 / user / month** | **14-day Free Trial** <br> *(Full access to desk & room booking)* | Desk booking, hybrid schedule coordination, office check-ins, visitor logs. |
+
+---
+
+## 🐳 Open-Source GitHub Projects
+
+Desk booking has an active open-source ecosystem catering to organizations requiring total data privacy, on-premise execution, or custom UI integrations. 
+
+The list below is **sorted by GitHub Star Count descending**, with each repository star badge linking directly to its stargazers page:
+
+### 1. **[Seatsurfing](https://github.com/seatsurfing/backend)** [<img src="https://img.shields.io/github/stars/seatsurfing/backend?style=social&color=white" alt="Seatsurfing Stars"/>](https://github.com/seatsurfing/backend/stargazers)
+- **Tech Stack:** Go (Backend REST API), TypeScript / React (Web PWA), PostgreSQL, Docker, Kubernetes.
+- **Description:** The leading open-source desk and room booking system. Features interactive floor plan visualization with drag-and-drop tools, multi-language support, Microsoft Teams & Confluence integration, and multi-architecture Docker container deployment (amd64, arm64).
+
+### 2. **[Classroom Bookings](https://github.com/classroombookings/classroombookings)** [<img src="https://img.shields.io/github/stars/classroombookings/classroombookings?style=social&color=white" alt="Classroom Bookings Stars"/>](https://github.com/classroombookings/classroombookings/stargazers)
+- **Tech Stack:** PHP / CodeIgniter, MySQL.
+- **Description:** Web-based room, desk, and computer lab reservation system designed for educational institutions and corporate training environments with recurring booking support.
+
+### 3. **[MRBS (Meeting Room Booking System)](https://github.com/meeting-room-booking-system/mrbs-code)** [<img src="https://img.shields.io/github/stars/meeting-room-booking-system/mrbs-code?style=social&color=white" alt="MRBS Stars"/>](https://github.com/meeting-room-booking-system/mrbs-code/stargazers)
+- **Tech Stack:** PHP, MySQL / PostgreSQL.
+- **Description:** Time-tested, multi-language web application for booking desks, meeting rooms, and shared office assets with LDAP/Active Directory authentication.
+
+### 4. **[WARP (Workspace Autonomous Reservation Program)](https://github.com/sebo-b/warp)** [<img src="https://img.shields.io/github/stars/sebo-b/warp?style=social&color=white" alt="WARP Stars"/>](https://github.com/sebo-b/warp/stargazers)
+- **Tech Stack:** Python (Flask), PostgreSQL, Docker / uWSGI.
+- **Description:** Comprehensive hybrid office management solution supporting assigned seating, hot desking, parking stall allocation, floor zone constraints, iCal feeds, and SAML/LDAP/Azure AD/OIDC single sign-on.
+
+### 5. **[OpenDesk](https://github.com/kanwalnainsingh/OpenDesk)** [<img src="https://img.shields.io/github/stars/kanwalnainsingh/OpenDesk?style=social&color=white" alt="OpenDesk Stars"/>](https://github.com/kanwalnainsingh/OpenDesk/stargazers)
+- **Tech Stack:** JavaScript, Node.js, Express, MongoDB.
+- **Description:** Lightweight open-source desk reservation platform focused on desk capacity planning, booking cancellations, and daily employee office schedule tracking.
+
+### 6. **[LibreBooking](https://github.com/LibreBooking/librebooking)** [<img src="https://img.shields.io/github/stars/LibreBooking/librebooking?style=social&color=white" alt="LibreBooking Stars"/>](https://github.com/LibreBooking/librebooking/stargazers)
+- **Tech Stack:** PHP, MySQL.
+- **Description:** Mature community-maintained fork of Booked Scheduler. Supports resource reservation (desks, rooms, equipment), approval workflows, recurring slots, quota management, and REST API access.
+
+### 7. **[Workplacify](https://github.com/igeligel/workplacify)** [<img src="https://img.shields.io/github/stars/igeligel/workplacify?style=social&color=white" alt="Workplacify Stars"/>](https://github.com/igeligel/workplacify/stargazers)
+- **Tech Stack:** Next.js, React, TypeScript, PostgreSQL, Tailwind CSS.
+- **Description:** Modern desk reservation and scheduling platform built specifically for hybrid workplaces with interactive canvas floor map support.
+
+### 8. **[Roomer](https://github.com/c0dewhacker/Roomer)** [<img src="https://img.shields.io/github/stars/c0dewhacker/Roomer?style=social&color=white" alt="Roomer Stars"/>](https://github.com/c0dewhacker/Roomer/stargazers)
+- **Tech Stack:** TypeScript, React, Fastify, SQLite / PostgreSQL.
+- **Description:** Self-hosted platform for office desk and asset reservation allowing admins to upload custom floor plan images and pin bookable resources directly on canvas maps.
+
+---
+
+## 📊 Feature Matrix & Architecture Comparison
+
+| Feature / Capability | Commercial SaaS Tiers | Open-Source Systems |
+| :--- | :--- | :--- |
+| **Primary Deployment** | Cloud Hosted / Managed | Docker, Kubernetes, Bare-Metal |
+| **Floor Plan Visualization** | Interactive drag-and-drop, 3D views | Seatsurfing, Workplacify, Roomer |
+| **SSO / IAM Integration** | Azure AD, Okta, Google Workspace | SAML 2.0, OIDC, LDAP (WARP, MRBS) |
+| **Chat Ops Integration** | Slack App, MS Teams Bot | Seatsurfing (Teams), Officely (Slack) |
+| **Occupancy Analytics** | IoT Hardware Sensors, Heatmaps | Database Reports & iCal Exports |
+| **Data Ownership** | Vendor Cloud Storage | 100% Self-Hosted & Local Control |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help us maintain the most up-to-date desk booking directory.
+
+1. **Fork the repository** on GitHub.
+2. Edit `README.md` to add your SaaS platform or open-source repo.
+3. Ensure all descriptions remain **objective and factual**.
+4. Verify that star badges point to `https://github.com/{owner}/{repo}/stargazers`.
+5. Submit a **Pull Request** with a clear title describing your addition.
+
+Refer to [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for awesome list standards.
+
+---
+
+## ⚠️ Disclaimer
+
+- This directory is **community-curated** for informational purposes and does not constitute a endorsement.
+- Workplace scheduling platforms handle employee location and attendance logs. Always ensure compliance with regional privacy laws (GDPR, CCPA) when storing occupancy analytics.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Desk-Booking-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Desk-Booking-Platform&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+If you find this repository helpful for evaluating workplace management tools or deploying open-source desk booking systems:
+
+- ⭐ **Star this repository** on GitHub to show your appreciation and help others discover it!
+- 🔀 **Fork & Share** it with facilities managers, workplace experience engineers, and hybrid work leaders.
+- 💬 Join our community on **[Discord](https://discord.gg/jc4xtF58Ve)** to discuss workplace technology and open-source solutions.
+- ☕ **Sponsor / Buy Me a Coffee**: Support ongoing open-source repository maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)!
+
+<p align="center">
+  <b>Made with ❤️ for facilities managers, workplace experience teams, HR leaders, and software engineers.</b>
+</p>

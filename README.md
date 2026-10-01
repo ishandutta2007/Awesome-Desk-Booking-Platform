@@ -7,7 +7,7 @@
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
   <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Desk-Booking-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desk-Booking-Platform?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desk-Booking-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desk-Booking-Platform?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
@@ -59,7 +59,7 @@ The table below lists leading commercial desk booking SaaS products, **sorted by
 
 Desk booking has an active open-source ecosystem catering to organizations requiring total data privacy, on-premise execution, or custom UI integrations. 
 
-The list below is **sorted by GitHub Star Count descending**, with each repository star badge linking directly to its stargazers page:
+The list below is **sorted by GitHub Stars_Count descending**, with each repository Stars_Badge linking directly to its stargazers page:
 
 ### 1. **[Seatsurfing](https://github.com/seatsurfing/backend)** [<img src="https://img.shields.io/github/stars/seatsurfing/backend?style=social&color=white" alt="Seatsurfing Stars"/>](https://github.com/seatsurfing/backend/stargazers)
 - **Tech Stack:** Go (Backend REST API), TypeScript / React (Web PWA), PostgreSQL, Docker, Kubernetes.
@@ -115,7 +115,7 @@ Contributions are warmly welcome! Help us maintain the most up-to-date desk book
 1. **Fork the repository** on GitHub.
 2. Edit `README.md` to add your SaaS platform or open-source repo.
 3. Ensure all descriptions remain **objective and factual**.
-4. Verify that star badges point to `https://github.com/{owner}/{repo}/stargazers`.
+4. Verify that Stars_Badges point to `https://github.com/{owner}/{repo}/stargazers`.
 5. Submit a **Pull Request** with a clear title describing your addition.
 
 Refer to [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for awesome list standards.
